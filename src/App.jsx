@@ -8,7 +8,7 @@ function App() {
     <>
     { /* Left Side */}
       <div className='p-6 mx-auto bg-zinc-950 sm:fixed sm:px-30 sm:py-15'>
-        <img src='/src/assets/photo.jpeg' className='w-48 h-48 rounded-full'></img>
+        <img src='src/assets/photo.jpeg' className='w-48 h-48 rounded-full'></img>
         <h1 className='my-2 text-3xl text-white font-bold'>Mustassum "Musti" Tanvir</h1>
         <h2 className='my-2 text-2xl text-gray-400'>AI & Full-Stack Developer</h2>
         <h2 className='my-2 text-xl text-gray-400'>📍Karachi, Pakistan.</h2>
