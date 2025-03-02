@@ -8,7 +8,7 @@ function App() {
     <>
     { /* Left Side */}
       <div className='p-6 mx-auto bg-zinc-950 sm:fixed sm:px-30 sm:py-15'>
-        <img src='src/assets/photo.jpeg' className='w-48 h-48 rounded-full'></img>
+        <img src='/src/assets/photo.jpeg' className='w-48 h-48 rounded-full'></img>
         <h1 className='my-2 text-3xl text-white font-bold'>Mustassum "Musti" Tanvir</h1>
         <h2 className='my-2 text-2xl text-gray-400'>AI & Full-Stack Developer</h2>
         <h2 className='my-2 text-xl text-gray-400'>📍Karachi, Pakistan.</h2>
@@ -90,7 +90,7 @@ function App() {
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-row gap-4 items-center'>
-            <img src='\src\assets\logo.png' alt="freelance" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <img src='/src/assets/logo.png' alt="freelance" className='w-30 h-30 p-6 bg-white rounded-full'/>
             <div className='flex flex-col'>
               <h1 className='text-4xl text-white font-semibold'>Freelance AI Developer</h1>
               <h1 className='text-lg text-gray-400 font-semibold'>Self-Employed, Karachi, Pakistan</h1>
@@ -124,7 +124,7 @@ function App() {
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-row gap-4 items-center'>
-            <img src='\src\assets\neuroaudic.png' alt="neuroaudic" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <img src='/src/assets/neuroaudic.png' alt="neuroaudic" className='w-30 h-30 p-6 bg-white rounded-full'/>
             <div className='flex flex-col'>
               <h1 className='text-4xl text-white font-semibold'>Founder &#38; CEO</h1>
               <h1 className='text-lg text-gray-400 font-semibold'>NeuroAudic, Karachi, Pakistan</h1>
@@ -153,7 +153,7 @@ function App() {
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-row gap-4 items-center'>
-            <img src='\src\assets\iucore.jpg' alt="iucore" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <img src='/src/assets/iucore.jpg' alt="iucore" className='w-30 h-30 p-6 bg-white rounded-full'/>
             <div className='flex flex-col'>
               <h1 className='text-4xl text-white font-semibold'>Incubatee</h1>
               <h1 className='text-lg text-gray-400 font-semibold'>IU Core, Karachi, Pakistan</h1>
@@ -181,7 +181,7 @@ function App() {
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-row gap-4 items-center'>
-            <img src='\src\assets\appedology.jpeg' alt="appedology" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <img src='/src/assets/appedology.jpeg' alt="appedology" className='w-30 h-30 p-6 bg-white rounded-full'/>
             <div className='flex flex-col'>
               <h1 className='text-4xl text-white font-semibold'>Negotiations Officer</h1>
               <h1 className='text-lg text-gray-400 font-semibold'>Appedology Pvt. Ltd., Karachi, Pakistan</h1>
@@ -208,7 +208,7 @@ function App() {
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-row gap-4 items-center'>
-            <img src='\src\assets\iqra.png' alt="iqra" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <img src='/src/assets/iqra.png' alt="iqra" className='w-30 h-30 p-6 bg-white rounded-full'/>
             <div className='flex flex-col items-start'>
               <h1 className='text-4xl text-white font-semibold'>Bachelor of Computer Science</h1>
               <h1 className='text-lg text-gray-400 font-semibold'>Iqra University, Karachi, Pakistan</h1>
@@ -244,7 +244,7 @@ function App() {
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-row gap-4 items-center'>
-            <img src='\src\assets\ncr.jpg' alt="ncr" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <img src='/src/assets/ncr.jpg' alt="ncr" className='w-30 h-30 p-6 bg-white rounded-full'/>
             <div className='flex flex-col items-start'>
               <h1 className='text-4xl text-white font-semibold'>Intermediate in Computer Science</h1>
               <h1 className='text-lg text-gray-400 font-semibold'>NCR CET, Karachi, Pakistan</h1>
