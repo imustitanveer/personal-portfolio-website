@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     { /* Left Side */}
-      <div className='p-6 mx-auto bg-zinc-950 sm:fixed sm:px-30 sm:py-15'>
+      <div className='p-6 mx-auto px-auto py-15 bg-zinc-950 lg:bg-transparent lg:fixed lg:px-auto xl:px-40'>
         <img src={photo} className='w-48 h-48 rounded-full'></img>
         <h1 className='my-2 text-3xl text-white font-bold'>Mustassum "Musti" Tanvir</h1>
         <h2 className='my-2 text-2xl text-gray-400'>AI & Full-Stack Developer</h2>
@@ -48,7 +48,7 @@ function App() {
       </div>
 
       { /* Right Side */}
-    <div className='bg-zinc-950 h-full w-full pt-10 sm:grid sm:grid-cols-[2fr_3fr] sm:gap-6'>
+    <div className='bg-zinc-950 h-full w-full pt-10 lg:grid lg:grid-cols-[2fr_3fr] lg:gap-6'>
       <div>
       </div>
       <div className='p-4'>
