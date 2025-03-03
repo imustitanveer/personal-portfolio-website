@@ -49,7 +49,7 @@ const EmailForm = ({ isOpen, onClose }) => {
             <h1 className="text-sm text-white font-semibold">Message</h1>
             <textarea name="message" className="text-white border border-gray-600 p-2 rounded h-40" onChange={handleChange} required></textarea>
             <div className="flex flex-row w-full gap-2 items-end justify-end">
-              <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-500" onClick={onClose}>Cancel</button>
+              <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-500 hover:cursor-pointer" onClick={onClose}>Cancel</button>
               <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 hover:cursor-pointer">Send Query</button>
             </div>
           </form>
