@@ -19,6 +19,7 @@ const EmailForm = ({ isOpen, onClose }) => {
         {
           name: formData.name,
           email: formData.email,
+          company: formData.company,
           message: formData.message,
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
@@ -46,6 +47,8 @@ const EmailForm = ({ isOpen, onClose }) => {
             <input type="text" name="name" className="text-white border border-gray-600 p-2 rounded" onChange={handleChange} required />
             <h1 className="text-sm text-white font-semibold">Email</h1>
             <input type="email" name="email" className="text-white border border-gray-600 p-2 rounded" onChange={handleChange} required />
+            <h1 className="text-sm text-white font-semibold">Company (optional)</h1>
+            <input type="text" name="company" className="text-white border border-gray-600 p-2 rounded" onChange={handleChange}/>
             <h1 className="text-sm text-white font-semibold">Message</h1>
             <textarea name="message" className="text-white border border-gray-600 p-2 rounded h-40" onChange={handleChange} required></textarea>
             <div className="flex flex-row w-full gap-2 items-end justify-end">
