@@ -9,6 +9,7 @@ import iucore from './assets/iucore.jpg'
 import appedology from './assets/appedology.jpeg'
 import iqra from './assets/iqra.png'
 import ncr from './assets/ncr.jpg'
+import resume from './assets/resume.pdf'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,7 @@ function App() {
         <div className='flex flex-row gap-3'>
           <button className='flex flex-row gap-2 me-6 bg-gray-950 border py-1 px-2 text-white my-4 text-md rounded-sm hover:bg-white hover:cursor-pointer hover:text-gray-950 group duration-300'>
           <svg className='w-6 h-6 text-white group-hover:text-gray-950' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="1"></g><g id="SVGRepo_iconCarrier"><path d="M4 4a2 2 0 0 1 2-2h8a1 1 0 0 1 .707.293l5 5A1 1 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4zm13.586 4L14 4.414V8h3.586zM12 4H6v16h12V10h-5a1 1 0 0 1-1-1V4zm0 7.5a1 1 0 0 1 1 1v2.586l.293-.293a1 1 0 0 1 1.414 1.414l-2 2a1 1 0 0 1-1.414 0l-2-2a1 1 0 1 1 1.414-1.414l.293.293V12.5a1 1 0 0 1 1-1z" fill="currentColor"></path></g></svg>
-            <a href='/resume.pdf' download>Resume</a>
+            <a href={resume} download>Resume</a>
           </button>
           <button className='group'>
             <a href="https://github.com/imustitanveer" target='_blank'>
