@@ -38,9 +38,9 @@ const EmailForm = ({ isOpen, onClose }) => {
   return (
     <>
       {/* Email Form Overlay */}
-      <div className="fixed inset-0 flex items-center justify-center backdrop-blur-sm z-50">
-        <div className="bg-zinc-900 p-10 rounded-lg w-1/2 h-auto shadow-lg relative">
-          <h2 className="text-xl font-bold mb-4 text-white">Send Me an Email</h2>
+      <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xs z-50">
+        <div className="bg-zinc-900 p-10 rounded-lg w-1/3 h-auto shadow-lg relative">
+          <h2 className="text-xl font-bold mb-4 text-white">Tell me about your project</h2>
           <form onSubmit={sendEmail} className="flex flex-col gap-3">
             <h1 className="text-sm text-white font-semibold">Name</h1>
             <input type="text" name="name" className="text-white border border-gray-600 p-2 rounded" onChange={handleChange} required />
@@ -50,7 +50,7 @@ const EmailForm = ({ isOpen, onClose }) => {
             <textarea name="message" className="text-white border border-gray-600 p-2 rounded h-40" onChange={handleChange} required></textarea>
             <div className="flex flex-row w-full gap-2 items-end justify-end">
               <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-500" onClick={onClose}>Cancel</button>
-              <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+              <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 hover:cursor-pointer">Send Query</button>
             </div>
           </form>
         </div>
@@ -58,7 +58,7 @@ const EmailForm = ({ isOpen, onClose }) => {
 
       {/* Success Message Overlay */}
       {successMessage && (
-        <div className="fixed inset-0 flex items-center justify-center backdrop-blur-sm z-50">
+        <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xs z-50">
           <div className="bg-green-500 text-white p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-lg font-semibold">✅ Email Sent Successfully!</h3>
           </div>
