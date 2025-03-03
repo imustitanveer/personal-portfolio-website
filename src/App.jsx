@@ -10,6 +10,9 @@ import appedology from './assets/appedology.jpeg'
 import iqra from './assets/iqra.png'
 import ncr from './assets/ncr.jpg'
 import resume from './assets/resume.pdf'
+import zindigi from './assets/zindigi.png'
+import getinnov from './assets/getinnov.jpeg'
+import ieeep from './assets/ieeep.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -59,19 +62,19 @@ function App() {
     <div className='bg-zinc-950 h-full w-full pt-10 lg:grid lg:grid-cols-[2fr_3fr] lg:gap-6'>
       <div></div>
       <div className='p-4'>
-        <h1 className='text-3xl text-white font-bold'>About Me</h1>
+        <h1 className='text-4xl text-white font-bold'>About Me</h1>
         <p className='text-lg text-white text-justify py-6 lg:pe-30'>I'm a 23-year-old AI developer, full-stack web developer, and entrepreneur passionate about building intelligent solutions. I specialize in deep learning, cloud computing with AWS, and end-to-end product development. As the founder of NeuroAudic, I’m using AI to enhance hearing aid technology, blending innovation with real-world impact. Beyond my startup, I’ve worked as a freelancer, helping businesses and individuals build AI models, web applications, and cloud-based solutions. My journey spans from machine learning and autonomous robotics to scalable cloud infrastructure, winning multiple innovation competitions along the way. When I’m not coding, I’m exploring new tech, optimizing systems, or brainstorming the next big idea.</p>
 
         {/* Skills */}
-        <h1 className='text-3xl text-white font-bold'>Skills</h1>
-        <h2 className='text-2xl text-white font-semibold py-4'>Languages</h2>
+        <h1 className='text-4xl text-white font-bold'>Skills</h1>
+        <h2 className='text-3xl text-white font-semibold py-4'>Languages</h2>
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-sky-950 py-1 px-4 text-sky-600 rounded-full'>Python</h1>
           <h1 className='bg-sky-950 py-1 px-4 text-sky-600 rounded-full'>JavaScript</h1>
         </div>
 
         {/* Frameworks */}
-        <h2 className='text-2xl text-white font-semibold py-4'>Frameworks</h2>
+        <h2 className='text-3xl text-white font-semibold py-4'>Frameworks</h2>
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tensorflow</h1>
           <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Pytorch</h1>
@@ -81,14 +84,14 @@ function App() {
         </div>
 
         {/* Backend */}
-        <h2 className='text-2xl text-white font-semibold py-4'>Backend</h2>
+        <h2 className='text-3xl text-white font-semibold py-4'>Backend</h2>
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-purple-950 py-1 px-4 text-purple-500 rounded-full'>Node.js</h1>
           <h1 className='bg-purple-950 py-1 px-4 text-purple-500 rounded-full'>REST APIs</h1>
         </div>
 
         {/* Databases */}
-        <h2 className='text-2xl text-white font-semibold py-4'>Databases</h2>
+        <h2 className='text-3xl text-white font-semibold py-4'>Databases</h2>
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-red-950 py-1 px-4 text-red-700 rounded-full'>Postgres</h1>
           <h1 className='bg-red-950 py-1 px-4 text-red-700 rounded-full'>SQL</h1>
@@ -96,7 +99,7 @@ function App() {
         </div>
 
         {/* Practices */}
-        <h2 className='text-2xl text-white font-semibold py-4'>Practices</h2>
+        <h2 className='text-3xl text-white font-semibold py-4'>Practices</h2>
         <div className='flex flex-row gap-2 mb-10 flex-wrap'>
           <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>Git</h1>
           <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>AWS</h1>
@@ -198,7 +201,6 @@ function App() {
           </div>
         </div>
 
-        {/* Fix the Pointers on these */}
         {/* Appedology */}
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
@@ -225,8 +227,75 @@ function App() {
           </div>
         </div>
 
+        {/* Awards Section */}
+        <h1 className='text-4xl text-white font-bold w-full my-10'>Awards</h1>
+
+          {/* GetInnovative4Impact Prize */}
+          <div className='flex flex-row gap-4 mt-4'>
+          <span className='bg-gray-600 h-auto w-1'></span>
+          <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-4 items-center'>
+            <img src={getinnov} alt="getinnov" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <div className='flex flex-col flex-wrap'>
+              <h1 className='text-4xl text-white font-semibold'>1st Position Get Innovative 4 Impact: Industry 4.0 and IOT Projects Competition</h1>
+              <h1 className='text-lg text-gray-400 font-semibold'>NED University, Karachi, Pakistan</h1>
+              <h1 className='text-md text-gray-400 font-semibold'>APRIL 2024</h1>
+            </div>
+          </div>
+          <div className='flex flex-row gap-2 flex-wrap'>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Python</h1>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tensorflow</h1>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Deep Neural Networks</h1>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Google Coral Dev Board</h1>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>ONNX</h1>
+          </div>
+          </div>
+        </div>
+
+        {/* Zindigi Prize */}
+        <div className='flex flex-row gap-4 mt-4'>
+          <span className='bg-gray-600 h-auto w-1'></span>
+          <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-4 items-center'>
+            <img src={zindigi} alt="zindigi" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <div className='flex flex-col flex-wrap'>
+              <h1 className='text-4xl text-white font-semibold'>1st Position Zindigi Prize Startup Competition: Campus Round</h1>
+              <h1 className='text-lg text-gray-400 font-semibold'>Iqra University, Karachi, Pakistan</h1>
+              <h1 className='text-md text-gray-400 font-semibold'>MAY 2024</h1>
+            </div>
+          </div>
+          <div className='flex flex-row gap-2 flex-wrap'>
+          <h1 className='bg-sky-900 py-1 px-4 text-sky-500 rounded-full'>Pitching and Fundraising</h1>
+            <h1 className='bg-sky-900 py-1 px-4 text-sky-500 rounded-full'>Business Development</h1>
+            <h1 className='bg-sky-900 py-1 px-4 text-sky-500 rounded-full'>Lean Startup Methodology</h1>
+          </div>
+          </div>
+        </div>
+        
+        {/* IEEEP STEP'24 Prize */}
+        <div className='flex flex-row gap-4 mt-4'>
+          <span className='bg-gray-600 h-auto w-1'></span>
+          <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-4 items-center'>
+            <img src={ieeep} alt="ieeep" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <div className='flex flex-col flex-wrap'>
+              <h1 className='text-4xl text-white font-semibold'>2nd Position IEEEP STEP'24: Smart Tech Exhibition Projects</h1>
+              <h1 className='text-lg text-gray-400 font-semibold'>Expo Center, Karachi, Pakistan</h1>
+              <h1 className='text-md text-gray-400 font-semibold'>SEP 2024</h1>
+            </div>
+          </div>
+          <div className='flex flex-row gap-2 flex-wrap'>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Python</h1>
+            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tensorflow</h1>
+            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Raspberry Pi 5</h1>
+            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Hailo NPU</h1>
+            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Embedded Systems</h1>
+          </div>
+          </div>
+        </div>
+
         {/* Education Section */}
-        <h1 className='text-3xl text-white font-bold mt-10 mb-10'>Education</h1>
+        <h1 className='text-4xl text-white font-bold my-10'>Education</h1>
         {/* Iqra University */}
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
@@ -318,7 +387,7 @@ function App() {
         </div>
 
         {/* Projects */}
-        <h1 className='text-3xl text-white font-bold py-10'>Projects</h1>
+        <h1 className='text-4xl text-white font-bold py-10'>Projects</h1>
         <div className='grid grid-cols-1'>
           <Projects />
         </div>

@@ -49,7 +49,7 @@ function Projects() {
       {/* Project Cards */}
         {/* ContractWalla */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={cw} alt="cw"/>
         </div>
@@ -81,7 +81,7 @@ function Projects() {
 
         {/* Figma Portfolio Website */}
         <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "web" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={figma} alt="figma"/>
         </div>
@@ -118,7 +118,7 @@ function Projects() {
 
         {/* AI Chess */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={chess} alt="chess"/>
         </div>
@@ -149,7 +149,7 @@ function Projects() {
         {/* Smoljames TailwindCSS */}
         {/* ADD VERCEL APP LINK */}
         <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "web" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={tailwind} alt="tailwind"/>
         </div>
@@ -184,7 +184,7 @@ function Projects() {
 
         {/* Adverserial Algo MNIST */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={mnist} alt="mnist"/>
         </div>
@@ -213,7 +213,7 @@ function Projects() {
         {/* Rock Paper Scissors */}
         {/* ADD VERCEL APP LINK */}
         <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "web" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={rps} alt="rockpaperscissors"/>
         </div>
@@ -247,7 +247,7 @@ function Projects() {
 
         {/* AI Pet */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={aipet} alt="aipet"/>
         </div>
@@ -277,7 +277,7 @@ function Projects() {
 
         {/* Topic Modeling With BERT */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={bert} alt="bert"/>
         </div>
@@ -312,7 +312,7 @@ function Projects() {
 
         {/* AI-Controlled Smart Home */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={smarthome} alt="smarthome"/>
         </div>
@@ -343,7 +343,7 @@ function Projects() {
 
         {/* Connect 4 Game */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={connect4} alt="connect4"/>
         </div>
@@ -372,7 +372,7 @@ function Projects() {
 
         {/* Tic Tac Toe */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={tictactoe} alt="tictactoe"/>
         </div>
@@ -401,7 +401,7 @@ function Projects() {
 
         {/* Car Crash Detection */}
         <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1.5'></span>
+        <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={carcrash} alt="carcrash"/>
         </div>
