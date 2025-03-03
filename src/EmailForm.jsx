@@ -39,7 +39,7 @@ const EmailForm = ({ isOpen, onClose }) => {
     <>
       {/* Email Form Overlay */}
       <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xs z-50">
-        <div className="bg-zinc-900 p-10 rounded-lg w-1/3 h-auto shadow-lg relative">
+        <div className="bg-zinc-900 p-10 rounded-lg w-auto lg:w-1/3 h-auto shadow-lg relative">
           <h2 className="text-xl font-bold mb-4 text-white">Tell me about your project</h2>
           <form onSubmit={sendEmail} className="flex flex-col gap-3">
             <h1 className="text-sm text-white font-semibold">Name</h1>
