@@ -17,7 +17,7 @@ function Projects() {
 
   return (
     <>
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="w-full max-w-4xl">
       {/* Tabs for Filtering */}
       <div className="flex flex-row gap-4 text-gray-300 pb-10 px-6">
         <button
