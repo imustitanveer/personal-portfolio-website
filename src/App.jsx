@@ -53,7 +53,7 @@ function App() {
       <div></div>
       <div className='p-4'>
         <h1 className='text-3xl text-white font-bold'>About Me</h1>
-        <p className='text-lg text-white text-justify py-6 lg:pe-30'>I'm a 22-year-old AI developer, full-stack web developer, and entrepreneur passionate about building intelligent solutions. I specialize in deep learning, cloud computing with AWS, and end-to-end product development. As the founder of NeuroAudic, I’m using AI to enhance hearing aid technology, blending innovation with real-world impact. Beyond my startup, I’ve worked as a freelancer, helping businesses and individuals build AI models, web applications, and cloud-based solutions. My journey spans from machine learning and autonomous robotics to scalable cloud infrastructure, winning multiple innovation competitions along the way. When I’m not coding, I’m exploring new tech, optimizing systems, or brainstorming the next big idea.</p>
+        <p className='text-lg text-white text-justify py-6 lg:pe-30'>I'm a 23-year-old AI developer, full-stack web developer, and entrepreneur passionate about building intelligent solutions. I specialize in deep learning, cloud computing with AWS, and end-to-end product development. As the founder of NeuroAudic, I’m using AI to enhance hearing aid technology, blending innovation with real-world impact. Beyond my startup, I’ve worked as a freelancer, helping businesses and individuals build AI models, web applications, and cloud-based solutions. My journey spans from machine learning and autonomous robotics to scalable cloud infrastructure, winning multiple innovation competitions along the way. When I’m not coding, I’m exploring new tech, optimizing systems, or brainstorming the next big idea.</p>
 
         {/* Skills */}
         <h1 className='text-3xl text-white font-bold'>Skills</h1>
@@ -205,10 +205,11 @@ function App() {
             </div>
           </div>
           <ul className="list-disc list-inside text-gray-300 text-lg p-2 text-justify">
-                <li className='mb-2'>Led client negotiations, ensuring alignment between business goals and software development projects.</li>
-                <li className='mb-2'>Drafted and reviewed project proposals, contracts, and pricing strategies to maximize profitability.</li>
-                <li className='mb-2'>Acted as a liaison between clients and technical teams, ensuring clear communication and timely delivery.</li>
-                <li className='mb-2'>Assisted in business development, identifying new opportunities for partnerships and collaborations.</li>
+                <li className='mb-2'>Successfully negotiated settlements for unpaid medical liens with insurance adjusters in workers' compensation cases.</li>
+                <li className='mb-2'>Secured optimal reimbursement for medical providers while ensuring compliance with workers' compensation regulations.</li>
+                <li className='mb-2'>Engaged in persuasive negotiations with adjusters to reduce outstanding lien amounts and expedite payments.</li>
+                <li className='mb-2'>Reviewed case details, medical records, and policy limits to build strong arguments for settlement discussions.</li>
+                <li className='mb-2'>Maintained accurate records of negotiations, ensuring all agreements adhered to legal and regulatory requirements.</li>
           </ul>
           <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-sky-900 py-1 px-4 text-sky-500 rounded-full'>Client Communicaton</h1>
