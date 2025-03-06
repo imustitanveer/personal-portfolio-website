@@ -49,7 +49,7 @@ function Projects() {
 
       {/* Project Cards */}
         {/* ContractWalla */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "block")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={cw} alt="cw"/>
