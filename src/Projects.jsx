@@ -107,7 +107,7 @@ function Projects() {
             <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Docker</h1>
             <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>AWS</h1>
             </div>
-            <div className='flex flex-row gap-4'>
+            <div className='flex flex-row flex-wrap gap-4'>
               {/* Github */}
             <button>
             <a className='text-lg font-semibold items-center flex flex-row gap-2 text-gray-300 hover:text-white group' href="https://github.com/imustitanveer/crypto-trading-bot" target='_blank'>
