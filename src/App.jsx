@@ -71,6 +71,7 @@ function App() {
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-sky-950 py-1 px-4 text-sky-600 rounded-full'>Python</h1>
           <h1 className='bg-sky-950 py-1 px-4 text-sky-600 rounded-full'>JavaScript</h1>
+          <h1 className='bg-sky-950 py-1 px-4 text-sky-600 rounded-full'>TypeScript</h1>
         </div>
 
         {/* Frameworks */}
@@ -78,16 +79,18 @@ function App() {
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tensorflow</h1>
           <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Pytorch</h1>
-          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>ReactJS</h1>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>React JS</h1>
           <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>React Native</h1>
           <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tailwind CSS</h1>
+          <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>shadcn/ui</h1>
         </div>
 
         {/* Backend */}
         <h2 className='text-3xl text-white font-semibold py-4'>Backend</h2>
         <div className='flex flex-row gap-2 flex-wrap'>
           <h1 className='bg-purple-950 py-1 px-4 text-purple-500 rounded-full'>Node.js</h1>
-          <h1 className='bg-purple-950 py-1 px-4 text-purple-500 rounded-full'>REST APIs</h1>
+          <h1 className='bg-purple-950 py-1 px-4 text-purple-500 rounded-full'>FastAPI</h1>
+          <h1 className='bg-purple-950 py-1 px-4 text-purple-500 rounded-full'>REST API</h1>
         </div>
 
         {/* Databases */}
@@ -102,8 +105,11 @@ function App() {
         <h2 className='text-3xl text-white font-semibold py-4'>Practices</h2>
         <div className='flex flex-row gap-2 mb-10 flex-wrap'>
           <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>Git</h1>
+          <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>Docker</h1>
           <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>AWS</h1>
+          <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>CI/CD</h1>
           <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>Agile</h1>
+          <h1 className='bg-yellow-950 py-1 px-4 text-yellow-600 rounded-full'>MLOps</h1>
         </div>
 
         {/* Experience Section */}
