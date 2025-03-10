@@ -152,7 +152,7 @@ function Projects() {
             <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>AWS Amplify</h1>
             <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Figma Design</h1>
             </div>
-            <div className='flex flex-row gap-4'>
+            <div className='flex flex-row gap-4 flex-wrap'>
             {/* Github */}
             <button>
             <a className='text-lg font-semibold items-center flex flex-row gap-2 text-gray-300 hover:text-white group' href="https://github.com/imustitanveer/portfolio-website-from-figma" target='_blank'>
