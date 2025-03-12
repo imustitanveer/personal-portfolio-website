@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import iqra from './assets/iqra.png'
 import ncr from './assets/ncr.jpg'
+import AnimatedComponent from './AnimatedComponent'
 
 function Education() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function Education() {
     <>
         <h1 className='text-4xl text-white font-bold my-10'>Education</h1>
         {/* Iqra University */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
@@ -61,8 +63,10 @@ function Education() {
             </ul>
           </div>
         </div>
-
+        </ AnimatedComponent>
+        
         {/* NCR CET */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
@@ -98,6 +102,7 @@ function Education() {
             </ul>
           </div>
         </div>
+        </AnimatedComponent>
     </>
   )
 }

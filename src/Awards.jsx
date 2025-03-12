@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import AnimatedComponent from './AnimatedComponent'
 import zindigi from './assets/zindigi.png'
 import getinnov from './assets/getinnov.jpeg'
 import ieeep from './assets/ieeep.png'
@@ -11,8 +12,9 @@ function Awards() {
     <>
         <h1 className='text-4xl text-white font-bold w-full my-10'>Awards</h1>
 
-            {/* GetInnovative4Impact Prize */}
-            <div className='flex flex-row gap-4 mt-4'>
+        {/* GetInnovative4Impact Prize */}
+        <AnimatedComponent direction='left'>
+        <div className='flex flex-row gap-4 mt-4'>
             <span className='bg-gray-600 h-auto w-1'></span>
             <div className='flex flex-col gap-4'>
             <div className='flex flex-row gap-4 items-center'>
@@ -32,8 +34,10 @@ function Awards() {
             </div>
             </div>
         </div>
+        </AnimatedComponent>
 
         {/* Zindigi Prize */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
             <span className='bg-gray-600 h-auto w-1'></span>
             <div className='flex flex-col gap-4'>
@@ -52,8 +56,10 @@ function Awards() {
             </div>
             </div>
         </div>
+        </AnimatedComponent>
         
         {/* IEEEP STEP'24 Prize */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
             <span className='bg-gray-600 h-auto w-1'></span>
             <div className='flex flex-col gap-4'>
@@ -74,6 +80,7 @@ function Awards() {
             </div>
             </div>
         </div>
+        </AnimatedComponent>
     </>
   )
 }

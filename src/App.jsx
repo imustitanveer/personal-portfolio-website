@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import AnimatedComponent from "./AnimatedComponent";
 import Details from './Details.jsx'
 import About from './About.jsx'
 import Experience from './Experience.jsx'
@@ -13,9 +14,11 @@ function App() {
   return (
     <>
     { /* Left Side */}
+    <AnimatedComponent direction="left">
     <div className='p-6 pb-0 mx-auto px-auto pt-15 bg-zinc-950 lg:bg-transparent lg:fixed lg:px-auto xl:px-40'>
-      <Details />
+        <Details />
     </div>
+    </AnimatedComponent>
 
       { /* Right Side */}
     <div className='bg-zinc-950 h-full w-full pt-10 lg:grid lg:grid-cols-[2fr_3fr] lg:gap-6'>

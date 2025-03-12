@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import AnimatedComponent from "./AnimatedComponent";
 import freelance from './assets/logo.png'
 import neuroaudic from './assets/neuroaudic.png'
 import iucore from './assets/iucore.jpg'
@@ -12,6 +13,7 @@ function Experience() {
     <>
      <h1 className='text-4xl text-white font-bold w-full'>Experience</h1>
         {/* Freelance Work */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
@@ -45,8 +47,10 @@ function Experience() {
           </div>
           </div>
         </div>
+        </AnimatedComponent>
 
         {/* NeuroAudic */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
@@ -75,8 +79,10 @@ function Experience() {
           </div>
           </div>
         </div>
+        </AnimatedComponent>
 
         {/* IU Core */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
@@ -103,8 +109,10 @@ function Experience() {
           </div>
           </div>
         </div>
+        </AnimatedComponent>
 
         {/* Appedology */}
+        <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
           <span className='bg-gray-600 h-auto w-1'></span>
           <div className='flex flex-col gap-4'>
@@ -129,6 +137,7 @@ function Experience() {
           </div>
           </div>
         </div>
+        </AnimatedComponent>
     </>
   )
 }
