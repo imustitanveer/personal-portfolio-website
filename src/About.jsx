@@ -35,6 +35,7 @@ function About() {
             <div className='flex flex-row gap-2 flex-wrap'>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tensorflow</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Pytorch</h1>
+              <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>PySpark</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>React JS</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>React Native</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tailwind CSS</h1>
