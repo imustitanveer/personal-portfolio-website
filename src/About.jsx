@@ -19,7 +19,7 @@ function About() {
   return (
     <>
      <h1 className='text-4xl text-white font-bold'>About Me</h1>
-            <p className='text-lg text-white text-justify py-6 lg:pe-30'>I'm a 23-year-old AI developer, full-stack web developer, and entrepreneur passionate about building intelligent solutions. I specialize in deep learning, cloud computing with AWS, and end-to-end product development. As the founder of NeuroAudic, I’m using AI to enhance hearing aid technology, blending innovation with real-world impact. Beyond my startup, I’ve worked as a freelancer, helping businesses and individuals build AI models, web applications, and cloud-based solutions. My journey spans from machine learning and autonomous robotics to scalable cloud infrastructure, winning multiple innovation competitions along the way. When I’m not coding, I’m exploring new tech, optimizing systems, or brainstorming the next big idea.</p>
+            <p className='text-lg text-white text-justify py-6 lg:pe-30'>Innovative and results-driven AI & Machine Learning Engineer with hands-on experience in developing and deploying deep learning models across diverse domains including real-time audio enhancement, computer vision, natural language processing, and predictive analytics. Proficient in training Large Language Models (LLMs), fine-tuning HuggingFace models, building vector database-driven RAG pipelines, and implementing ML-powered features in full-stack web applications. Demonstrated success in building edge-deployable audio processing systems, stock trading bots with ML integrations, and AI-powered conversational agents using GPT APIs, DeepFace, and custom transcription modules. Adept at delivering scalable solutions using Python, React, and cloud platforms (AWS/GCP), with a strong focus on applied AI, inference optimization, and cross-functional product delivery.</p>
     
             {/* Skills */}
             <h1 className='text-4xl text-white font-bold'>Skills</h1>
@@ -35,7 +35,6 @@ function About() {
             <div className='flex flex-row gap-2 flex-wrap'>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tensorflow</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Pytorch</h1>
-              <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>PySpark</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>React JS</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>React Native</h1>
               <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tailwind CSS</h1>
