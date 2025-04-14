@@ -32,25 +32,25 @@ function Projects() {
         </button>
         <button
           className={`px-4 py-2 rounded-xl ${
-            activeTab === "ai" ? "bg-gray-600 text-white" : "bg-inherit"
+            activeTab === "personal" ? "bg-gray-600 text-white" : "bg-inherit"
           } hover:text-white hover:cursor-pointer duration-300`}
-          onClick={() => setActiveTab("ai")}
+          onClick={() => setActiveTab("personal")}
         >
-          Artificial Intelligence
+          Personal
         </button>
         <button
           className={`px-4 py-2 rounded-xl ${
-            activeTab === "web" ? "bg-gray-600 text-white" : "bg-inherit"
+            activeTab === "forclients" ? "bg-gray-600 text-white" : "bg-inherit"
           } hover:text-white hover:cursor-pointer duration-300`}
-          onClick={() => setActiveTab("web")}
+          onClick={() => setActiveTab("forclients")}
         >
-          Web Development
+          For Clients
         </button>
       </div>
 
       {/* Project Cards */}
         {/* ContractWalla */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "block")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "forclients" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={cw} alt="cw"/>
@@ -83,7 +83,7 @@ function Projects() {
         </div>
 
         {/* Coursodigo */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "block")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "forclients" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={coursodigo} alt="coursodigo"/>
@@ -125,7 +125,7 @@ function Projects() {
 
         {/* Cryptobot */}
         {/* ADD YOUTUBE LINK */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "block")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "personal" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={cryptobot} alt="cryptobot"/>
@@ -173,7 +173,7 @@ function Projects() {
         </div>
 
         {/* Medilingo */}
-        <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "block")}>
+        <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "forclients" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={medilingo} alt="medilingo"/>
@@ -208,47 +208,8 @@ function Projects() {
         </div>
         </div>
 
-        {/* Figma Portfolio Website */}
-        <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "web" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1'></span>
-        <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
-        <img src={figma} alt="figma"/>
-        </div>
-        <div className='flex flex-col items-start w-3/4'>
-            <h1 className='text-2xl text-white font-semibold'>Portfolio Website From Figma</h1>
-            <ul className="list-disc list-inside text-gray-300 text-lg p-2 text-justify">
-            <li className='mb-2'>Transformed a Figma design into a fully functional responsive web portfolio.</li>
-            <li className='mb-2'>Developed with Vite, ReactJS, and Tailwind CSS for a fast and lightweight experience.</li>
-            <li className='mb-2'>Deployed using AWS Amplify for seamless hosting and continuous integration.</li>
-            <li className='mb-2'>Optimized performance and accessibility for better user experience.</li>
-            </ul>
-            <div className='flex flex-row gap-2 flex-wrap mb-4 text-sm'>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Javascript</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Tailwind CSS</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Vite</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>AWS</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>AWS Amplify</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Figma Design</h1>
-            </div>
-            <div className='flex flex-row gap-4 flex-wrap'>
-            {/* Github */}
-            <button>
-            <a className='text-lg font-semibold items-center flex flex-row gap-2 text-gray-300 hover:text-white group' href="https://github.com/imustitanveer/portfolio-website-from-figma" target='_blank'>
-                <svg className='w-8 h-8 text-gray-400 group-hover:cursor-pointer group-hover:text-white' fill="currentColor" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>github</title> <path d="M16 1.375c-8.282 0-14.996 6.714-14.996 14.996 0 6.585 4.245 12.18 10.148 14.195l0.106 0.031c0.75 0.141 1.025-0.322 1.025-0.721 0-0.356-0.012-1.3-0.019-2.549-4.171 0.905-5.051-2.012-5.051-2.012-0.288-0.925-0.878-1.685-1.653-2.184l-0.016-0.009c-1.358-0.93 0.105-0.911 0.105-0.911 0.987 0.139 1.814 0.718 2.289 1.53l0.008 0.015c0.554 0.995 1.6 1.657 2.801 1.657 0.576 0 1.116-0.152 1.582-0.419l-0.016 0.008c0.072-0.791 0.421-1.489 0.949-2.005l0.001-0.001c-3.33-0.375-6.831-1.665-6.831-7.41-0-0.027-0.001-0.058-0.001-0.089 0-1.521 0.587-2.905 1.547-3.938l-0.003 0.004c-0.203-0.542-0.321-1.168-0.321-1.821 0-0.777 0.166-1.516 0.465-2.182l-0.014 0.034s1.256-0.402 4.124 1.537c1.124-0.321 2.415-0.506 3.749-0.506s2.625 0.185 3.849 0.53l-0.1-0.024c2.849-1.939 4.105-1.537 4.105-1.537 0.285 0.642 0.451 1.39 0.451 2.177 0 0.642-0.11 1.258-0.313 1.83l0.012-0.038c0.953 1.032 1.538 2.416 1.538 3.937 0 0.031-0 0.061-0.001 0.091l0-0.005c0 5.761-3.505 7.029-6.842 7.398 0.632 0.647 1.022 1.532 1.022 2.509 0 0.093-0.004 0.186-0.011 0.278l0.001-0.012c0 2.007-0.019 3.619-0.019 4.106 0 0.394 0.262 0.862 1.031 0.712 6.028-2.029 10.292-7.629 10.292-14.226 0-8.272-6.706-14.977-14.977-14.977-0.006 0-0.013 0-0.019 0h0.001z"></path> </g></svg> View Code
-            </a>
-            </button>
-            {/* Website */}
-            <button>
-            <a className='text-lg text-gray-300 font-semibold hover:text-white hover:cursor-pointer flex flex-row gap-2' href="https://main.d1bihova58r1gq.amplifyapp.com/" target="_blank">
-            <svg className='w-6 h-6 my-auto' fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" d="M5,2 L7,2 C7.55228475,2 8,2.44771525 8,3 C8,3.51283584 7.61395981,3.93550716 7.11662113,3.99327227 L7,4 L5,4 C4.48716416,4 4.06449284,4.38604019 4.00672773,4.88337887 L4,5 L4,19 C4,19.5128358 4.38604019,19.9355072 4.88337887,19.9932723 L5,20 L19,20 C19.5128358,20 19.9355072,19.6139598 19.9932723,19.1166211 L20,19 L20,17 C20,16.4477153 20.4477153,16 21,16 C21.5128358,16 21.9355072,16.3860402 21.9932723,16.8833789 L22,17 L22,19 C22,20.5976809 20.75108,21.9036609 19.1762728,21.9949073 L19,22 L5,22 C3.40231912,22 2.09633912,20.75108 2.00509269,19.1762728 L2,19 L2,5 C2,3.40231912 3.24891996,2.09633912 4.82372721,2.00509269 L5,2 L7,2 L5,2 Z M21,2 L21.081,2.003 L21.2007258,2.02024007 L21.2007258,2.02024007 L21.3121425,2.04973809 L21.3121425,2.04973809 L21.4232215,2.09367336 L21.5207088,2.14599545 L21.5207088,2.14599545 L21.6167501,2.21278596 L21.7071068,2.29289322 L21.7071068,2.29289322 L21.8036654,2.40469339 L21.8036654,2.40469339 L21.8753288,2.5159379 L21.9063462,2.57690085 L21.9063462,2.57690085 L21.9401141,2.65834962 L21.9401141,2.65834962 L21.9641549,2.73400703 L21.9641549,2.73400703 L21.9930928,2.8819045 L21.9930928,2.8819045 L22,3 L22,3 L22,9 C22,9.55228475 21.5522847,10 21,10 C20.4477153,10 20,9.55228475 20,9 L20,5.414 L13.7071068,11.7071068 C13.3466228,12.0675907 12.7793918,12.0953203 12.3871006,11.7902954 L12.2928932,11.7071068 C11.9324093,11.3466228 11.9046797,10.7793918 12.2097046,10.3871006 L12.2928932,10.2928932 L18.584,4 L15,4 C14.4477153,4 14,3.55228475 14,3 C14,2.44771525 14.4477153,2 15,2 L21,2 Z"></path> </g></svg>
-            Live Demo</a>
-            </button>
-            </div>
-        </div>
-        </div>
-
         {/* AI Chess */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "personal" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={chess} alt="chess"/>
@@ -278,45 +239,8 @@ function Projects() {
         </div>
         </div>
 
-        {/* Smoljames TailwindCSS */}
-        <div id='web' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "web" ? "block" : "hidden")}>
-        <span className='bg-gray-600 h-auto w-1'></span>
-        <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
-        <img src={tailwind} alt="tailwind"/>
-        </div>
-        <div className='flex flex-col items-start w-3/4'>
-            <h1 className='text-2xl text-white font-semibold'>Crystal Math: SmolJames TailwindCSS Tutorial Project</h1>
-            <ul className="list-disc list-inside text-gray-300 text-lg p-2 text-justify">
-            <li className='mb-2'>Built a web-based project using HTML, JavaScript, and TailwindCSS for a clean and responsive UI.</li>
-            <li className='mb-2'>Followed SmolJames' TailwindCSS tutorial to learn best practices in modern frontend development.</li>
-            <li className='mb-2'>Designed an engaging and interactive layout optimized for both desktop and mobile devices.</li>
-            <li className='mb-2'>Deployed the project on Vercel for seamless accessibility.</li>
-            <li className='mb-2'>Open-sourced the code on GitHub to help others learn TailwindCSS.</li>
-            </ul>
-            <div className='flex flex-row gap-2 flex-wrap mb-4 text-sm'>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>Javascript</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>HTML</h1>
-            <h1 className='bg-green-900 py-1 px-4 text-green-500 rounded-full'>TailwindCSS</h1>
-            </div>
-            <div className='flex flex-row gap-4 flex-wrap'>
-            {/* Github */}
-            <button>
-            <a className='text-lg font-semibold items-center flex flex-row gap-2 text-gray-300 hover:text-white group' href="https://github.com/imustitanveer/smoljames-tailwindcss-project" target='_blank'>
-                <svg className='w-8 h-8 text-gray-400 group-hover:cursor-pointer group-hover:text-white' fill="currentColor" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>github</title> <path d="M16 1.375c-8.282 0-14.996 6.714-14.996 14.996 0 6.585 4.245 12.18 10.148 14.195l0.106 0.031c0.75 0.141 1.025-0.322 1.025-0.721 0-0.356-0.012-1.3-0.019-2.549-4.171 0.905-5.051-2.012-5.051-2.012-0.288-0.925-0.878-1.685-1.653-2.184l-0.016-0.009c-1.358-0.93 0.105-0.911 0.105-0.911 0.987 0.139 1.814 0.718 2.289 1.53l0.008 0.015c0.554 0.995 1.6 1.657 2.801 1.657 0.576 0 1.116-0.152 1.582-0.419l-0.016 0.008c0.072-0.791 0.421-1.489 0.949-2.005l0.001-0.001c-3.33-0.375-6.831-1.665-6.831-7.41-0-0.027-0.001-0.058-0.001-0.089 0-1.521 0.587-2.905 1.547-3.938l-0.003 0.004c-0.203-0.542-0.321-1.168-0.321-1.821 0-0.777 0.166-1.516 0.465-2.182l-0.014 0.034s1.256-0.402 4.124 1.537c1.124-0.321 2.415-0.506 3.749-0.506s2.625 0.185 3.849 0.53l-0.1-0.024c2.849-1.939 4.105-1.537 4.105-1.537 0.285 0.642 0.451 1.39 0.451 2.177 0 0.642-0.11 1.258-0.313 1.83l0.012-0.038c0.953 1.032 1.538 2.416 1.538 3.937 0 0.031-0 0.061-0.001 0.091l0-0.005c0 5.761-3.505 7.029-6.842 7.398 0.632 0.647 1.022 1.532 1.022 2.509 0 0.093-0.004 0.186-0.011 0.278l0.001-0.012c0 2.007-0.019 3.619-0.019 4.106 0 0.394 0.262 0.862 1.031 0.712 6.028-2.029 10.292-7.629 10.292-14.226 0-8.272-6.706-14.977-14.977-14.977-0.006 0-0.013 0-0.019 0h0.001z"></path> </g></svg> View Code
-            </a>
-            </button>
-            {/* Website */}
-            <button>
-            <a className='text-lg text-gray-300 font-semibold hover:text-white hover:cursor-pointer flex flex-row gap-2' href="https://crystal-math.vercel.app/" target="_blank">
-            <svg className='w-6 h-6 my-auto' fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" d="M5,2 L7,2 C7.55228475,2 8,2.44771525 8,3 C8,3.51283584 7.61395981,3.93550716 7.11662113,3.99327227 L7,4 L5,4 C4.48716416,4 4.06449284,4.38604019 4.00672773,4.88337887 L4,5 L4,19 C4,19.5128358 4.38604019,19.9355072 4.88337887,19.9932723 L5,20 L19,20 C19.5128358,20 19.9355072,19.6139598 19.9932723,19.1166211 L20,19 L20,17 C20,16.4477153 20.4477153,16 21,16 C21.5128358,16 21.9355072,16.3860402 21.9932723,16.8833789 L22,17 L22,19 C22,20.5976809 20.75108,21.9036609 19.1762728,21.9949073 L19,22 L5,22 C3.40231912,22 2.09633912,20.75108 2.00509269,19.1762728 L2,19 L2,5 C2,3.40231912 3.24891996,2.09633912 4.82372721,2.00509269 L5,2 L7,2 L5,2 Z M21,2 L21.081,2.003 L21.2007258,2.02024007 L21.2007258,2.02024007 L21.3121425,2.04973809 L21.3121425,2.04973809 L21.4232215,2.09367336 L21.5207088,2.14599545 L21.5207088,2.14599545 L21.6167501,2.21278596 L21.7071068,2.29289322 L21.7071068,2.29289322 L21.8036654,2.40469339 L21.8036654,2.40469339 L21.8753288,2.5159379 L21.9063462,2.57690085 L21.9063462,2.57690085 L21.9401141,2.65834962 L21.9401141,2.65834962 L21.9641549,2.73400703 L21.9641549,2.73400703 L21.9930928,2.8819045 L21.9930928,2.8819045 L22,3 L22,3 L22,9 C22,9.55228475 21.5522847,10 21,10 C20.4477153,10 20,9.55228475 20,9 L20,5.414 L13.7071068,11.7071068 C13.3466228,12.0675907 12.7793918,12.0953203 12.3871006,11.7902954 L12.2928932,11.7071068 C11.9324093,11.3466228 11.9046797,10.7793918 12.2097046,10.3871006 L12.2928932,10.2928932 L18.584,4 L15,4 C14.4477153,4 14,3.55228475 14,3 C14,2.44771525 14.4477153,2 15,2 L21,2 Z"></path> </g></svg>
-            Live Demo</a>
-            </button>
-            </div>
-        </div>
-        </div>
-
         {/* Adverserial Algo MNIST */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "personal" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center p-4 h-auto w-1/4 bg-white rounded-2xl'>
         <img src={mnist} alt="mnist"/>
@@ -345,7 +269,7 @@ function Projects() {
         </div>
 
         {/* AI Pet */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "forclients" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={aipet} alt="aipet"/>
@@ -376,7 +300,7 @@ function Projects() {
         </div>
 
         {/* Topic Modeling With BERT */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "forclients" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={bert} alt="bert"/>
@@ -412,7 +336,7 @@ function Projects() {
         </div>
 
         {/* AI-Controlled Smart Home */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "forclients" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={smarthome} alt="smarthome"/>
@@ -444,7 +368,7 @@ function Projects() {
         </div>
 
         {/* Connect 4 Game */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "personal" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={connect4} alt="connect4"/>
@@ -474,7 +398,7 @@ function Projects() {
         </div>
 
         {/* Tic Tac Toe */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "personal" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={tictactoe} alt="tictactoe"/>
@@ -504,7 +428,7 @@ function Projects() {
         </div>
 
         {/* Car Crash Detection */}
-        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "ai" ? "block" : "hidden")}>
+        <div id='ai' className={'flex flex-row gap-4 rounded-2xl mb-4 ' + (activeTab === "all" || activeTab === "personal" ? "block" : "hidden")}>
         <span className='bg-gray-600 h-auto w-1'></span>
         <div className='flex items-center justify-center h-auto w-1/4 bg-white rounded-2xl'>
         <img src={carcrash} alt="carcrash"/>
