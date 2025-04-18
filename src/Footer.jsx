@@ -14,13 +14,13 @@ export default function Footer() {
         </p>
 
         <div className="flex justify-center gap-5 text-xl text-gray-700 dark:text-gray-300">
-          <a href="https://github.com/mustassumtanvir" target="_blank" rel="noreferrer" className="hover:text-black dark:hover:text-white transition">
+          <a href="https://github.com/imustitanveer" target="_blank" rel="noreferrer" className="hover:text-black dark:hover:text-white transition">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/mustassumtanvir" target="_blank" rel="noreferrer" className="hover:text-black dark:hover:text-white transition">
+          <a href="https://linkedin.com/in/mustassum-tanvir" target="_blank" rel="noreferrer" className="hover:text-black dark:hover:text-white transition">
             <FaLinkedin />
           </a>
-          <a href="mailto:musti@aibymusti.com" className="hover:text-black dark:hover:text-white transition">
+          <a href="mailto:mustassum.tanveer@gmail.com" className="hover:text-black dark:hover:text-white transition">
             <FaEnvelope />
           </a>
         </div>
