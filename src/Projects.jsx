@@ -32,7 +32,7 @@ function Projects() {
         </button>
         <button
           className={`px-4 py-2 rounded-xl ${
-            activeTab === "personal" ? "bg-gray-600 text-white" : "bg-inherit"
+            activeTab === "personal" ? "bg-gray-400 dark:bg-gray-800 text-white" : "bg-inherit"
           } hover:text-white hover:cursor-pointer duration-300`}
           onClick={() => setActiveTab("personal")}
         >
@@ -40,7 +40,7 @@ function Projects() {
         </button>
         <button
           className={`px-4 py-2 rounded-xl ${
-            activeTab === "forclients" ? "bg-gray-600 text-white" : "bg-inherit"
+            activeTab === "forclients" ? "bg-gray-400 dark:bg-gray-800 text-white" : "bg-inherit"
           } hover:text-white hover:cursor-pointer duration-300`}
           onClick={() => setActiveTab("forclients")}
         >
