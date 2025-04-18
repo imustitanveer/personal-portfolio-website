@@ -41,8 +41,8 @@ const EmailForm = ({ isOpen, onClose }) => {
       {/* Email Form Overlay */}
       <div className="fixed inset-0 flex items-center justify-center backdrop-blur-xs z-50">
         <div className="bg-zinc-900 p-10 rounded-lg w-auto lg:w-1/3 h-auto shadow-lg relative">
-          <h2 className="text-xl font-bold mb-4 text-white">Tell me about your project</h2>
-          <form onSubmit={sendEmail} className="flex flex-col gap-3">
+          <h2 className="text-3xl font-bold mb-4 text-white font-[Outfit]">Tell me about your project</h2>
+          <form onSubmit={sendEmail} className="flex flex-col gap-3 font-[Inter]">
             <h1 className="text-sm text-white font-semibold">Name</h1>
             <input type="text" name="name" className="text-white border border-gray-600 p-2 rounded" onChange={handleChange} required />
             <h1 className="text-sm text-white font-semibold">Email</h1>
