@@ -35,8 +35,9 @@ function About() {
             <div className='flex flex-row gap-2 flex-wrap'>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Tensorflow</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Pytorch</h1>
-              <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>React JS</h1>
-              <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>React Native</h1>
+              <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>MLX</h1>
+              <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Next.js</h1>
+              <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>React.js</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Tailwind CSS</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>shadcn/ui</h1>
             </div>

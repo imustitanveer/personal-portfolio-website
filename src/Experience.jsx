@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import AnimatedComponent from "./AnimatedComponent";
 import freelance from './assets/logo.png'
+import dam from './assets/dam.png'
 import neuroaudic from './assets/neuroaudic.png'
 import iucore from './assets/iucore.jpg'
 import appedology from './assets/appedology.jpeg'
@@ -12,6 +13,77 @@ function Experience() {
   return (
     <>
      <h1 className='text-4xl text-black dark:text-white font-bold w-full font-[Outfit]'>Experience</h1>
+
+        {/* Dam Pvt. Ltd. */}
+        <AnimatedComponent direction='left'>
+        <div className='flex flex-row gap-4 mt-4'>
+          <span className='bg-gray-600 h-auto w-1'></span>
+          <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-4 items-center'>
+            <img src={dam} alt="dam" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <div className='flex flex-col'>
+              <h1 className='text-4xl text-black dark:text-white font-semibold font-[Inter]'>Fullstack AI Developer</h1>
+              <h1 className='text-lg text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>Dam Pvt. Ltd, Karachi, Pakistan</h1>
+              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>APR 2025 - Present</h1>
+            </div>
+          </div>
+          <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 text-justify font-[DM_Sans]">
+                <li className='mb-2'>Built AI voice agents to automate and optimize sales calls.</li>
+                <li className='mb-2'>Automated client management workflows using custom made AI tools.</li>
+                <li className='mb-2'>Developed AI-driven email automation for lead engagement.</li>
+                <li className='mb-2'>Delivered full-stack web apps for internal and client use.</li>
+          </ul>
+          <div className='flex flex-row gap-2 flex-wrap font-[Space_Grotesk]'>
+          <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Python</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tensorflow</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Pytorch</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Scikit-Learn</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Pandas</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>React.js</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Next.js</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Javascript</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Typescript</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tailwind CSS</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>MongoDB</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>AWS</h1>
+          </div>
+          </div>
+        </div>
+        </AnimatedComponent>
+
+        {/* NeuroAudic */}
+        <AnimatedComponent direction='left'>
+        <div className='flex flex-row gap-4 mt-4'>
+          <span className='bg-gray-600 h-auto w-1'></span>
+          <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-4 items-center'>
+            <img src={neuroaudic} alt="neuroaudic" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <div className='flex flex-col'>
+              <h1 className='text-4xl text-black dark:text-white font-semibold font-[Inter]'>Founder &#38; CEO</h1>
+              <h1 className='text-lg text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>NeuroAudic, Karachi, Pakistan</h1>
+              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>JAN 2024 - APR 2025</h1>
+            </div>
+          </div>
+          <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 font-[DM_Sans]">
+                <li className='mb-2'>Built an AI-powered hearing aid using deep learning and real-time audio enhancement.</li>
+                <li className='mb-2'>Led product development, securing multiple innovation awards and startup competition wins.</li>
+                <li className='mb-2'>Deployed DTLN models trained on 500+ hours of noisy sound data for noise suppression.</li>
+                <li className='mb-2'>Spearheaded business strategy, handling fundraising, marketing, and technical development.</li>
+          </ul>
+          <div className='flex flex-row gap-2 flex-wrap font-[Space_Grotesk]'>
+          <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Python</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tensorflow</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Raspberry Pi 5</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Deep Neural Networks</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Edge AI</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Embedded Systems</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>ONNX</h1>
+          </div>
+          </div>
+        </div>
+        </AnimatedComponent>
+
+
         {/* Freelance Work */}
         <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
@@ -22,10 +94,10 @@ function Experience() {
             <div className='flex flex-col'>
               <h1 className='text-4xl text-black dark:text-white font-semibold font-[Inter]'>Freelance AI Developer</h1>
               <h1 className='text-lg text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>Self-Employed, Karachi, Pakistan</h1>
-              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>NOV 2022 - Present</h1>
+              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>NOV 2022 - APR 2025</h1>
             </div>
           </div>
-          <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 text-justify font-[DM_Sans]">
+          <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 font-[DM_Sans]">
                 <li className='mb-2'>Developed custom AI models for businesses, including image processing, NLP, and predictive analytics.</li>
                 <li className='mb-2'>Built full-stack web apps with React, Node.js, and AWS for scalable cloud-based solutions.</li>
                 <li className='mb-2'>Integrated TensorFlow & PyTorch models into real-world applications.</li>
@@ -49,38 +121,6 @@ function Experience() {
         </div>
         </AnimatedComponent>
 
-        {/* NeuroAudic */}
-        <AnimatedComponent direction='left'>
-        <div className='flex flex-row gap-4 mt-4'>
-          <span className='bg-gray-600 h-auto w-1'></span>
-          <div className='flex flex-col gap-4'>
-          <div className='flex flex-row gap-4 items-center'>
-            <img src={neuroaudic} alt="neuroaudic" className='w-30 h-30 p-6 bg-white rounded-full'/>
-            <div className='flex flex-col'>
-              <h1 className='text-4xl text-black dark:text-white font-semibold font-[Inter]'>Founder &#38; CEO</h1>
-              <h1 className='text-lg text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>NeuroAudic, Karachi, Pakistan</h1>
-              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>JAN 2024 - Present</h1>
-            </div>
-          </div>
-          <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 text-justify font-[DM_Sans]">
-                <li className='mb-2'>Built an AI-powered hearing aid using deep learning and real-time audio enhancement.</li>
-                <li className='mb-2'>Led product development, securing multiple innovation awards and startup competition wins.</li>
-                <li className='mb-2'>Deployed DTLN models trained on 500+ hours of noisy sound data for noise suppression.</li>
-                <li className='mb-2'>Spearheaded business strategy, handling fundraising, marketing, and technical development.</li>
-          </ul>
-          <div className='flex flex-row gap-2 flex-wrap font-[Space_Grotesk]'>
-          <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Python</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tensorflow</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Raspberry Pi 5</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Deep Neural Networks</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Edge AI</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Embedded Systems</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>ONNX</h1>
-          </div>
-          </div>
-        </div>
-        </AnimatedComponent>
-
         {/* IU Core */}
         <AnimatedComponent direction='left'>
         <div className='flex flex-row gap-4 mt-4'>
@@ -94,7 +134,7 @@ function Experience() {
               <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>JAN 2024 - JUL 2024</h1>
             </div>
           </div>
-          <ul className="list-disc list-inside text-gray-500 dark:text-gray-300 text-lg p-2 text-justify font-[DM_Sans]">
+          <ul className="list-disc list-inside text-gray-500 dark:text-gray-300 text-lg p-2 font-[DM_Sans]">
                 <li className='mb-2'>Participated in startup incubation, refining business strategy, product development, and go-to-market plans for NeuroAudic.</li>
                 <li className='mb-2'>Engaged in mentorship programs with industry experts to enhance AI product commercialization.</li>
                 <li className='mb-2'>Conducted market research and user testing to optimize NeuroAudic’s AI-powered hearing aid.</li>
@@ -124,7 +164,7 @@ function Experience() {
               <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>FEB 2022 - SEP 2022</h1>
             </div>
           </div>
-          <ul className="list-disc list-inside text-gray-500 dark:text-gray-300 text-lg p-2 text-justify font-[DM_Sans]">
+          <ul className="list-disc list-inside text-gray-500 dark:text-gray-300 text-lg p-2 font-[DM_Sans]">
                 <li className='mb-2'>Successfully negotiated settlements for unpaid medical liens with insurance adjusters in workers' compensation cases.</li>
                 <li className='mb-2'>Secured optimal reimbursement for medical providers while ensuring compliance with workers' compensation regulations.</li>
                 <li className='mb-2'>Engaged in persuasive negotiations with adjusters to reduce outstanding lien amounts and expedite payments.</li>
