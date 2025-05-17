@@ -8,6 +8,10 @@ import Awards from './Awards.jsx'
 import Education from './Education.jsx'
 import Projects from './Projects.jsx'
 import Footer from './Footer.jsx';
+import { applyInitialTheme } from './lib/theme';
+import ThemeSwitch from './ThemeSwitch.jsx';
+
+applyInitialTheme();
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +26,8 @@ function App() {
     </AnimatedComponent>
 
       { /* Right Side */}
-    <div className='bg-white text-black dark:text-white dark:bg-zinc-950 h-full w-full pt-10 lg:grid lg:grid-cols-[2fr_3fr] lg:gap-6'>
+      < ThemeSwitch />
+    <div className='bg-white text-black dark:text-white dark:bg-zinc-950 h-full w-full pt-4 lg:grid lg:grid-cols-[2fr_3fr] lg:gap-6'>
       <div></div>
       <div className='p-4'>
         <About />
