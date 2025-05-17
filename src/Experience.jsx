@@ -28,17 +28,17 @@ function Experience() {
             </div>
           </div>
           <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 text-justify font-[DM_Sans]">
-                <li className='mb-2'>Built AI voice agents to automate and optimize sales calls.</li>
-                <li className='mb-2'>Automated client management workflows using custom made AI tools.</li>
-                <li className='mb-2'>Developed AI-driven email automation for lead engagement.</li>
-                <li className='mb-2'>Delivered full-stack web apps for internal and client use.</li>
+                <li className='mb-2'>Build fullstack web apps with modern stacks — React, FastAPI, Node.js, Python, and scalable cloud backends.</li>
+                <li className='mb-2'>Develop and deploy AI solutions, including fine-tuned models using Unsloth, MLX, and scalable training pipelines.</li>
+                <li className='mb-2'>Create custom AI chatbots with Retrieval-Augmented Generation (RAG), vector databases, and domain-specific tuning.</li>
+                <li className='mb-2'>Deliver end-to-end systems — from UI/UX to backend infra — solving real client problems with AI, automation, and modern web tech.</li>
           </ul>
           <div className='flex flex-row gap-2 flex-wrap font-[Space_Grotesk]'>
           <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Python</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tensorflow</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Pytorch</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Scikit-Learn</h1>
-            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Pandas</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>MLX</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Unsloth AI</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>React.js</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Next.js</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Javascript</h1>
@@ -46,6 +46,7 @@ function Experience() {
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tailwind CSS</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>MongoDB</h1>
             <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>AWS</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>cPanel</h1>
           </div>
           </div>
         </div>
