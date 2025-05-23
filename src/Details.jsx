@@ -13,7 +13,7 @@ function Details() {
         <img src={photo} className='w-48 h-48 rounded-full'></img>
         <h1 className='my-2 text-3xl text-black dark:text-white font-bold font-[Outfit]'>Mustassum "Musti" Tanvir</h1>
         <h2 className='my-2 text-2xl text-gray-600 dark:text-gray-400 font-[DM_Sans]'>AI & Full-Stack Developer</h2>
-        <h2 className='my-2 text-xl text-gray-600 dark:text-gray-400 font-[DM_Sans]'>📍Karachi, Pakistan.</h2>
+        {/* <h2 className='my-2 text-xl text-gray-600 dark:text-gray-400 font-[DM_Sans]'>📍Karachi, Pakistan.</h2> */}
         <p className='text-md text-black dark:text-white font-[Inter]'>Innovating with AI, Engineering the Future.</p>
 
         <div className='flex flex-row gap-3'>

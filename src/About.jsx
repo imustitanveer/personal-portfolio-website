@@ -35,6 +35,7 @@ function About() {
             <div className='flex flex-row gap-2 flex-wrap'>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Tensorflow</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Pytorch</h1>
+              <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>LangChain</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>MLX</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>Next.js</h1>
               <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full font-[Space_Grotesk]'>React.js</h1>
@@ -53,6 +54,8 @@ function About() {
             {/* Databases */}
             <h2 className='text-3xl text-black dark:text-white font-semibold py-4 font-[DM_Sans]'>Databases</h2>
             <div className='flex flex-row gap-2 flex-wrap'>
+              <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>ChromaDB</h1>
+              <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>FAISS</h1>
               <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>Postgres</h1>
               <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>SQL</h1>
               <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>MongoDB</h1>
