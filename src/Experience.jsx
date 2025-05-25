@@ -62,7 +62,7 @@ function Experience() {
             <div className='flex flex-col'>
               <h1 className='text-4xl text-black dark:text-white font-semibold font-[Inter]'>Founder &#38; CEO</h1>
               <h1 className='text-lg text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>NeuroAudic, Karachi, Pakistan</h1>
-              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>JAN 2024 - APR 2025</h1>
+              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>JAN 2024 - Present</h1>
             </div>
           </div>
           <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 font-[DM_Sans]">
