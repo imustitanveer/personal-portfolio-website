@@ -20,7 +20,7 @@ function App() {
     <>
     { /* Left Side */}
     <AnimatedComponent direction="left">
-    <div className='p-6 pb-0 mx-auto px-auto pt-15 text-black dark:text-white bg-white dark:bg-zinc-950 lg:bg-transparent lg:fixed lg:px-auto xl:px-40'>
+    <div className='p-6 pb-0 mx-auto px-auto pt-15 text-black dark:text-white sm:bg-transparent sm:fixed sm:px-auto xl:px-40'>
         <Details />
     </div>
     </AnimatedComponent>
