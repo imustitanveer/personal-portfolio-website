@@ -6,6 +6,7 @@ import dam from './assets/dam.png'
 import neuroaudic from './assets/neuroaudic.png'
 import iucore from './assets/iucore.jpg'
 import appedology from './assets/appedology.jpeg'
+import odindesk from './assets/OdinDesk.png'
 
 function Experience() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,41 @@ function Experience() {
   return (
     <>
      <h1 className='text-4xl text-black dark:text-white font-bold w-full font-[Outfit]'>Experience</h1>
+
+        {/* OdinDesk */}
+        <AnimatedComponent direction='left'>
+        <div className='flex flex-row gap-4 mt-4'>
+          <span className='bg-gray-600 h-auto w-1'></span>
+          <div className='flex flex-col gap-4'>
+          <div className='flex flex-row gap-4 items-center'>
+            <img src={odindesk} alt="dam" className='w-30 h-30 p-6 bg-white rounded-full'/>
+            <div className='flex flex-col'>
+              <h1 className='text-4xl text-black dark:text-white font-semibold font-[Inter]'>Tech Lead</h1>
+              <h1 className='text-lg text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>OdinDesk, Remote</h1>
+              <h1 className='text-md text-gray-600 dark:text-gray-400 font-semibold font-[Inter]'>JUN 2025 - Present</h1>
+            </div>
+          </div>
+          <ul className="list-disc list-inside text-lg text-gray-500 dark:text-gray-300 p-2 text-justify font-[DM_Sans]">
+                <li className='mb-2'>Leading development of OdinDesk, an AI-driven platform for building context-aware chatbots and voice agents.</li>
+                <li className='mb-2'>Architected and implemented full-stack systems for internal (employee) and external (client) conversational AI solutions.</li>
+                <li className='mb-2'>Built and deployed voice agents for inbound/outbound sales calls with real-time speech recognition and dialogue handling.</li>
+                <li className='mb-2'>Integrated LLMs with custom memory/context pipelines to deliver tailored, multi-turn conversations for businesses.</li>
+          </ul>
+          <div className='flex flex-row gap-2 flex-wrap font-[Space_Grotesk]'>
+          <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Python</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>LangChain</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Chromadb</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>MLX</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Bark</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Next.js</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Typescript</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>Tailwind CSS</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>MongoDB</h1>
+            <h1 className='bg-green-500 dark:bg-green-900 py-1 px-4 text-green-800 dark:text-green-500 rounded-full'>AWS</h1>
+          </div>
+          </div>
+        </div>
+        </AnimatedComponent>
 
         {/* Dam Pvt. Ltd. */}
         <AnimatedComponent direction='left'>
