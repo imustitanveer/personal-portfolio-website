@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import AnimatedComponent from "./AnimatedComponent";
+import AnimatedComponent from "./components/AnimatedComponent.jsx";
 import Details from './Details.jsx'
 import About from './About.jsx'
 import Experience from './Experience.jsx'
@@ -9,7 +9,7 @@ import Education from './Education.jsx'
 import Projects from './Projects.jsx'
 import Footer from './Footer.jsx';
 import { applyInitialTheme } from './lib/theme';
-import ThemeSwitch from './ThemeSwitch.jsx';
+import ThemeSwitch from './components/ThemeSwitch.jsx';
 
 applyInitialTheme();
 

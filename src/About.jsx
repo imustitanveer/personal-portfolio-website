@@ -1,16 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Projects from './Projects.jsx'
-import Details from './Details.jsx'
-import freelance from './assets/logo.png'
-import neuroaudic from './assets/neuroaudic.png'
-import iucore from './assets/iucore.jpg'
-import appedology from './assets/appedology.jpeg'
-import iqra from './assets/iqra.png'
-import ncr from './assets/ncr.jpg'
-import zindigi from './assets/zindigi.png'
-import getinnov from './assets/getinnov.jpeg'
-import ieeep from './assets/ieeep.png'
 
 
 function About() {

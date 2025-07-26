@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import AnimatedComponent from './AnimatedComponent'
+import AnimatedComponent from './components/AnimatedComponent'
 import zindigi from './assets/zindigi.png'
 import getinnov from './assets/getinnov.jpeg'
 import ieeep from './assets/ieeep.png'
