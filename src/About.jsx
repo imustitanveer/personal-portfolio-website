@@ -15,6 +15,7 @@ function About() {
             <h2 className='text-3xl text-black dark:text-white font-semibold py-4 font-[DM_Sans]'>Languages</h2>
             <div className='flex flex-row gap-2 flex-wrap'>
               <h1 className='bg-sky-500 text-sky-800 dark:bg-sky-950 py-1 px-4 dark:text-sky-600 rounded-full font-[Space_Grotesk]'>Python</h1>
+              <h1 className='bg-sky-500 text-sky-800 dark:bg-sky-950 py-1 px-4 dark:text-sky-600 rounded-full font-[Space_Grotesk]'>Golang</h1>
               <h1 className='bg-sky-500 text-sky-800 dark:bg-sky-950 py-1 px-4 dark:text-sky-600 rounded-full font-[Space_Grotesk]'>JavaScript</h1>
               <h1 className='bg-sky-500 text-sky-800 dark:bg-sky-950 py-1 px-4 dark:text-sky-600 rounded-full font-[Space_Grotesk]'>TypeScript</h1>
             </div>
@@ -36,6 +37,7 @@ function About() {
             <h2 className='text-3xl text-black dark:text-white font-semibold py-4 font-[DM_Sans]'>Backend</h2>
             <div className='flex flex-row gap-2 flex-wrap'>
               <h1 className='bg-purple-500 dark:bg-purple-950 py-1 px-4 text-purple-800 dark:text-purple-500 rounded-full font-[Space_Grotesk]'>Node.js</h1>
+              <h1 className='bg-purple-500 dark:bg-purple-950 py-1 px-4 text-purple-800 dark:text-purple-500 rounded-full font-[Space_Grotesk]'>Flask</h1>
               <h1 className='bg-purple-500 dark:bg-purple-950 py-1 px-4 text-purple-800 dark:text-purple-500 rounded-full font-[Space_Grotesk]'>FastAPI</h1>
               <h1 className='bg-purple-500 dark:bg-purple-950 py-1 px-4 text-purple-800 dark:text-purple-500 rounded-full font-[Space_Grotesk]'>REST API</h1>
             </div>
