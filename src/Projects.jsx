@@ -16,6 +16,7 @@ import connect4 from './assets/connect4.jpg';
 import cryptobot from './assets/cryptobot.png';
 import coursodigo from './assets/coursodigo.png';
 import tijori from './assets/tijori-icon.png';
+import hof from './assets/hof.jpeg';
 
 const allProjects = [
   {
@@ -29,7 +30,20 @@ const allProjects = [
       "Integrated GPT-based insights to assist in contract drafting."
     ],
     tags: ["Python", "Pytorch", "Javascript", "Tailwind CSS", "ReactJS", "AWS", "AWS SageMaker AI", "Deepseek R1"],
-    links: [{ text: "Live Demo", href: "https://contractwalla.com/", icon: FiExternalLink }]
+    links: [{ text: "Live Demo", href: "https://app.contractwalla.com/", icon: FiExternalLink }]
+  },
+  {
+    image: hof,
+    title: "Hall of Football",
+    category: "forclients",
+    description: [
+      "Modernized the Hall of Football platform with a fresh design, improved navigation, and mobile-friendly responsiveness.",
+      "Built detailed player pages as the core feature, including stats, bios, rankings, and draft projections.",
+      "Added dynamic scouting boards, mock draft integration, and sortable ranking tables for easy analysis.",
+      "Implemented a flexible system to streamline content updates, ensuring scouts and writers can manage data efficiently."
+    ],
+    tags: ["Python", "Flask", "Typescript", "Tailwind CSS", "NextJS", "AWS", "AWS EC2", "Cloudscraper"],
+    links: [{ text: "Live Demo", href: "https://nfldarftnews.damwebserver.com/", icon: FiExternalLink }]
   },
   {
     image: tijori,
