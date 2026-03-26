@@ -4,6 +4,7 @@ import AnimatedComponent from "./components/AnimatedComponent.jsx";
 import Details from './Details.jsx'
 import About from './About.jsx'
 import Experience from './Experience.jsx'
+import Research from './Research.jsx';
 import Awards from './Awards.jsx'
 import Education from './Education.jsx'
 import Projects from './Projects.jsx'
@@ -34,6 +35,9 @@ function App() {
 
         {/* Experience Section */}
         <Experience />
+
+        {/* Research Section */}
+        <Research />
 
         {/* Awards Section */}
         <Awards />

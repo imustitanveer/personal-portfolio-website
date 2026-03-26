@@ -1,6 +1,7 @@
 import './App.css'
 import iqra from './assets/iqra.png'
 import ncr from './assets/ncr.jpg'
+import trier from './assets/trier.png'
 import AnimatedComponent from './components/AnimatedComponent'
 
 function EducationCard({ image, degree, institute, duration, unitsListId, units }) {
@@ -44,6 +45,29 @@ function EducationCard({ image, degree, institute, duration, unitsListId, units 
 }
 
 function Education() {
+  const trierUnits = [
+    // Semester 1 – Foundations
+    'Preparatory Computer Science',
+    'Preparatory Linguistics',
+    'Preparatory Statistics',
+    'Preparatory Mathematics',
+    'Machine Learning',
+  
+    // Semester 2 – Core NLP
+    'Natural Language Processing',
+    'Computational Text and Media Science',
+    'Elective: Linguistics / Data Analytics / Information Visualization / Semantic Technologies',
+  
+    // Semester 3 – Specialization + Research
+    'Elective: Digital Libraries / Digital Humanities',
+    'Elective: Data Science',
+    'Elective: Artificial Intelligence',
+    'Research Case Study',
+  
+    // Semester 4
+    "Master’s Thesis (Natural Language Processing)"
+  ];
+
   const iqraUnits = [
     'CSC-121 Digital Logic Design',
     'CSC-131 Programming Fundamentals',
@@ -79,10 +103,20 @@ function Education() {
   return (
     <>
       <h1 className='text-4xl text-black dark:text-white font-bold my-10 font-[Outfit]'>Education</h1>
+      {/*
+      <EducationCard 
+        image={trier} 
+        degree='Master of Science (M.Sc.) in Natural Language Processing' 
+        institute='Universität Trier, Trier, Germany' 
+        duration='OCT 2026 - Present' 
+        unitsListId='unitsList' 
+        units={trierUnits} w
+      />
+       */}
       
       <EducationCard 
         image={iqra} 
-        degree='Bachelor of Computer Science' 
+        degree='Bachelor of Science (B.Sc.) in Computer Science' 
         institute='Iqra University, Karachi, Pakistan' 
         duration='JAN 2020 - DEC 2024' 
         unitsListId='unitsList' 

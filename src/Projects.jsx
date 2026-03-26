@@ -16,7 +16,7 @@ import connect4 from './assets/connect4.jpg';
 import cryptobot from './assets/cryptobot.png';
 import coursodigo from './assets/coursodigo.png';
 import tijori from './assets/tijori-icon.png';
-import hof from './assets/hof.jpeg';
+import hof from './assets/hof.png';
 
 const allProjects = [
   {
@@ -43,7 +43,7 @@ const allProjects = [
       "Implemented a flexible system to streamline content updates, ensuring scouts and writers can manage data efficiently."
     ],
     tags: ["Python", "Flask", "Typescript", "Tailwind CSS", "NextJS", "AWS", "AWS EC2", "Cloudscraper"],
-    links: [{ text: "Live Demo", href: "https://nfldarftnews.damwebserver.com/", icon: FiExternalLink }]
+    links: [{ text: "Live Demo", href: "https://halloffootball.com/", icon: FiExternalLink }]
   },
   {
     image: tijori,
