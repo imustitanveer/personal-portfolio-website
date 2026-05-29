@@ -51,6 +51,16 @@ function About() {
               <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>SQL</h1>
               <h1 className='bg-red-500 dark:bg-red-950 py-1 px-4 text-red-800 dark:text-red-700 rounded-full font-[Space_Grotesk]'>MongoDB</h1>
             </div>
+
+            {/* CMS / Web Platforms */}
+            <h2 className='text-3xl text-black dark:text-white font-semibold py-4 font-[DM_Sans]'>CMS / Web Platforms</h2>
+            <div className='flex flex-row gap-2 flex-wrap'>
+              <h1 className='bg-pink-500 dark:bg-pink-950 py-1 px-4 text-pink-800 dark:text-pink-500 rounded-full font-[Space_Grotesk]'>WordPress</h1>
+              <h1 className='bg-pink-500 dark:bg-pink-950 py-1 px-4 text-pink-800 dark:text-pink-500 rounded-full font-[Space_Grotesk]'>Elementor</h1>
+              <h1 className='bg-pink-500 dark:bg-pink-950 py-1 px-4 text-pink-800 dark:text-pink-500 rounded-full font-[Space_Grotesk]'>WooCommerce</h1>
+              <h1 className='bg-pink-500 dark:bg-pink-950 py-1 px-4 text-pink-800 dark:text-pink-500 rounded-full font-[Space_Grotesk]'>Hostinger</h1>
+              <h1 className='bg-pink-500 dark:bg-pink-950 py-1 px-4 text-pink-800 dark:text-pink-500 rounded-full font-[Space_Grotesk]'>GoDaddy</h1>
+            </div>
     
             {/* Practices */}
             <h2 className='text-3xl text-black dark:text-white font-semibold py-4 font-[DM_Sans]'>Practices</h2>

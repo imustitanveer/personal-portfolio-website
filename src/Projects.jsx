@@ -17,6 +17,7 @@ import cryptobot from './assets/cryptobot.png';
 import coursodigo from './assets/coursodigo.png';
 import tijori from './assets/tijori-icon.png';
 import hof from './assets/hof.png';
+import gmb from './assets/gmb.png';
 
 const allProjects = [
   {
@@ -44,6 +45,34 @@ const allProjects = [
     ],
     tags: ["Python", "Flask", "Typescript", "Tailwind CSS", "NextJS", "AWS", "AWS EC2", "Cloudscraper"],
     links: [{ text: "Live Demo", href: "https://halloffootball.com/", icon: FiExternalLink }]
+  },
+  {
+    image: gmb, // import your screenshot/logo asset
+    title: "Global Marriage Bureau",
+    category: "forclients",
+    description: [
+      "Designed and customized a complete matrimonial website using WordPress, Elementor, and custom CSS.",
+      "Created custom landing pages, coming soon page, 404 page, and responsive layouts tailored for matchmaking services.",
+      "Customized theme components including headers, footers, branding, navigation, and user experience flows.",
+      "Configured hosting, domain setup, DNS management, SSL, and website deployment for production use."
+    ],
+    tags: [
+      "WordPress",
+      "Elementor",
+      "CSS",
+      "GoDaddy",
+      "Hostinger",
+      "DNS",
+      "SSL",
+      "Web Design"
+    ],
+    links: [
+      {
+        text: "Live Demo",
+        href: "https://gmb-online.com",
+        icon: FiExternalLink
+      }
+    ]
   },
   {
     image: tijori,
