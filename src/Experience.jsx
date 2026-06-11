@@ -14,22 +14,6 @@ function Experience() {
       <h1 className='text-4xl text-black dark:text-white font-bold w-full font-[Outfit]'>Experience</h1>
 
       <ExperienceItem
-        image={odindesk}
-        alt="odindesk"
-        title="Tech Lead"
-        company="OdinDesk"
-        location="Remote"
-        date="JUN 2025 - Present"
-        bullets={[
-          "Leading development of OdinDesk, an AI-driven platform for building context-aware chatbots and voice agents.",
-          "Architected and implemented full-stack systems for internal (employee) and external (client) conversational AI solutions.",
-          "Built and deployed voice agents for inbound/outbound sales calls with real-time speech recognition and dialogue handling.",
-          "Integrated LLMs with custom memory/context pipelines to deliver tailored, multi-turn conversations for businesses."
-        ]}
-        tags={["Python", "LangChain", "Chromadb", "MLX", "Bark", "Next.js", "Typescript", "Tailwind CSS", "MongoDB", "AWS"]}
-      />
-
-      <ExperienceItem
         image={dam}
         alt="dam"
         title="Fullstack AI Developer"
@@ -44,6 +28,22 @@ function Experience() {
         ]}
         tags={["Python", "Tensorflow", "Pytorch", "MLX", "Unsloth AI", "React.js", "Next.js", "Javascript", "Typescript", "Tailwind CSS", "MongoDB", "AWS", "cPanel"]}
       />
+      
+      <ExperienceItem
+        image={odindesk}
+        alt="odindesk"
+        title="Tech Lead"
+        company="OdinDesk"
+        location="Remote"
+        date="JUN 2025 - FEB 2026"
+        bullets={[
+          "Leading development of OdinDesk, an AI-driven platform for building context-aware chatbots and voice agents.",
+          "Architected and implemented full-stack systems for internal (employee) and external (client) conversational AI solutions.",
+          "Built and deployed voice agents for inbound/outbound sales calls with real-time speech recognition and dialogue handling.",
+          "Integrated LLMs with custom memory/context pipelines to deliver tailored, multi-turn conversations for businesses."
+        ]}
+        tags={["Python", "LangChain", "Chromadb", "MLX", "Bark", "Next.js", "Typescript", "Tailwind CSS", "MongoDB", "AWS"]}
+      />
      
      <ExperienceItem
         image={neuroaudic}
@@ -51,7 +51,7 @@ function Experience() {
         title="Founder & CEO"
         company="NeuroAudic"
         location="Karachi, Pakistan"
-        date="JAN 2024 - Present"
+        date="JAN 2024 - DEC 2025"
         bullets={[
           "Built an AI-powered hearing aid using deep learning and real-time audio enhancement.",
           "Led product development, securing multiple innovation awards and startup competition wins.",

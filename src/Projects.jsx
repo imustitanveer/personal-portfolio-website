@@ -6,18 +6,15 @@ import { FiExternalLink } from 'react-icons/fi';
 import { SiYoutube } from 'react-icons/si';
 
 import cw from './assets/cw.png';
-import chess from './assets/chess.avif';
 import medilingo from './assets/medilingo.png';
 import mnist from './assets/mnist.png';
-import aipet from './assets/aipet.gif';
 import bert from './assets/bert.png';
-import smarthome from './assets/smarthome.jpg';
-import connect4 from './assets/connect4.jpg';
 import cryptobot from './assets/cryptobot.png';
 import coursodigo from './assets/coursodigo.png';
 import tijori from './assets/tijori-icon.png';
 import hof from './assets/hof.png';
 import gmb from './assets/gmb.png';
+import codexseo from './assets/codex.png';
 
 const allProjects = [
   {
@@ -35,7 +32,7 @@ const allProjects = [
   },
   {
     image: hof,
-    title: "Hall of Football",
+    title: "Hall of Football: Football Scouting Platform",
     category: "forclients",
     description: [
       "Modernized the Hall of Football platform with a fresh design, improved navigation, and mobile-friendly responsiveness.",
@@ -47,7 +44,7 @@ const allProjects = [
     links: [{ text: "Live Demo", href: "https://halloffootball.com/", icon: FiExternalLink }]
   },
   {
-    image: gmb, // import your screenshot/logo asset
+    image: gmb,
     title: "Global Marriage Bureau",
     category: "forclients",
     description: [
@@ -75,6 +72,37 @@ const allProjects = [
     ]
   },
   {
+    image: codexseo,
+    title: "Codex SEO: AI-Powered SEO Skill Pack & SaaS Platform",
+    category: "personal",
+    description: [
+      "Built a Codex-native AI skill pack capable of performing technical SEO, content quality, schema, sitemap, image optimization, GEO (AI Search), and competitor analysis.",
+      "Designed an extensible agentic architecture with reusable AI skills, automatic routing, validation tooling, and optional MCP integrations for live search and keyword data.",
+      "Developed a production-ready Express backend and Next.js dashboard supporting asynchronous SEO audits, job management, API execution, and report generation.",
+      "Created automated installers, migration tooling, documentation, and developer workflows to simplify deployment across Codex CLI and desktop environments."
+    ],
+    tags: [
+      "OpenAI Codex",
+      "Agentic AI",
+      "Javascript",
+      "Node.js",
+      "Express",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "SEO",
+      "MCP",
+      "Playwright"
+    ],
+    links: [
+      {
+        text: "View Code",
+        href: "https://github.com/imustitanveer/codex-seo",
+        icon: FaGithub
+      }
+    ]
+  },
+  {
     image: tijori,
     title: "Tijori: AI-Powered Personal Finance Assistant",
     category: "forclients",
@@ -88,7 +116,7 @@ const allProjects = [
   },
   {
     image: coursodigo,
-    title: "Corsódigo: Course Recommendation App",
+    title: "Corsódigo: Semantic Course Recommendation Engine",
     category: "forclients",
     description: [
       "Survey-based course recommender using semantic search and FastAPI.",
@@ -103,7 +131,7 @@ const allProjects = [
   },
   {
     image: cryptobot,
-    title: "TradeBotX: Crypto Trading Bot",
+    title: "TradeBotX: ML-Powered Crypto Trading Bot",
     category: "personal",
     description: [
       "Uses ML models to predict and trade BNB/USDT with full backend state.",
@@ -132,22 +160,8 @@ const allProjects = [
     ]
   },
   {
-    image: chess,
-    title: "Chess with Minmax & Alpha-Beta",
-    category: "personal",
-    description: [
-      "Python chess engine using minimax and alpha-beta pruning.",
-      "Built with PyGame for GUI and Python-Chess for moves.",
-      "Open source and adjustable AI difficulty."
-    ],
-    tags: ["Python", "PyGame", "Python-Chess"],
-    links: [
-      { text: "View Code", href: "https://github.com/imustitanveer/Chess-with-Alpha-Beta-Pruning", icon: FaGithub }
-    ]
-  },
-  {
     image: mnist,
-    title: "Adversarial Examples for Neural Networks",
+    title: "Adversarial Robustness on MNIST",
     category: "personal",
     description: [
       "FGSM and PGD attacks on MNIST models using Tensorflow.",
@@ -159,22 +173,8 @@ const allProjects = [
     ]
   },
   {
-    image: aipet,
-    title: "AI Pet",
-    category: "forclients",
-    description: [
-      "Face and emotion detection with FaceNet + Deepface.",
-      "Conversational interface using DialoGPT.",
-      "Built with Streamlit for demo purposes."
-    ],
-    tags: ["Python", "Huggingface", "Streamlit", "Deepface", "GPT-2"],
-    links: [
-      { text: "View Code", href: "https://github.com/imustitanveer/AI-Pet", icon: FaGithub }
-    ]
-  },
-  {
     image: bert,
-    title: "BERT for NLP",
+    title: "BERT for NLP: Classification & NER",
     category: "personal",
     description: [
       "Trained and fine-tuned BERT for classification and named entity recognition (NER).",
@@ -184,33 +184,6 @@ const allProjects = [
     tags: ["Python", "BERT", "Huggingface", "NLP", "PyTorch"],
     links: [
       { text: "View Code", href: "https://github.com/imustitanveer/BERT-NLP", icon: FaGithub }
-    ]
-  },
-  {
-    image: smarthome,
-    title: "Smart Home App",
-    category: "personal",
-    description: [
-      "IoT Smart Home Controller with real-time status updates via Firebase.",
-      "Mobile-first React UI to control appliances and monitor sensors remotely.",
-      "Uses Firebase Realtime DB, authentication, and hosting."
-    ],
-    tags: ["React", "Firebase", "Javascript", "IoT"],
-    links: [
-      { text: "View Code", href: "https://github.com/imustitanveer/Smart-Home-React-Firebase", icon: FaGithub }
-    ]
-  },
-  {
-    image: connect4,
-    title: "Connect 4 with AI",
-    category: "personal",
-    description: [
-      "Classic Connect 4 game built with Minimax-based AI opponent.",
-      "Visual board and animations using HTML/CSS/JS frontend stack."
-    ],
-    tags: ["HTML", "CSS", "Javascript", "AI", "Game Dev"],
-    links: [
-      { text: "View Code", href: "https://github.com/imustitanveer/Connect4-Minimax", icon: FaGithub }
     ]
   }
 ];
