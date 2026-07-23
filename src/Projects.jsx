@@ -15,6 +15,7 @@ import tijori from './assets/tijori-icon.png';
 import hof from './assets/hof.png';
 import gmb from './assets/gmb.png';
 import codexseo from './assets/codex.png';
+import bellsystem from './assets/bellsystem.png';
 
 const allProjects = [
   {
@@ -42,6 +43,32 @@ const allProjects = [
     ],
     tags: ["Python", "Flask", "Typescript", "Tailwind CSS", "NextJS", "AWS", "AWS EC2", "Cloudscraper"],
     links: [{ text: "Live Demo", href: "https://halloffootball.com/", icon: FiExternalLink }]
+  },
+  {
+    image: bellsystem,
+    title: "Bell System: Enterprise Sales & Operations Platform",
+    category: "forclients",
+    description: [
+      "Engineered and extended a production-grade enterprise platform for managing sales teams, deals, turnover workflows, notifications, and internal operations.",
+      "Built role-based workflows for administrators, moderators, managers, and salespeople with secure account provisioning and granular authorization.",
+      "Implemented shared support ticketing with threaded replies, creator-facing portals, moderator management, and real-time Socket.IO notifications.",
+      "Worked within an existing TypeScript backend to audit architecture, design minimal production-ready changes, add Prisma/PostgreSQL persistence, and expand automated integration and unit test coverage."
+    ],
+    tags: [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "MongoDB",
+      "Socket.IO",
+      "REST APIs",
+      "RBAC",
+      "System Architecture",
+      "Integration Testing",
+      "Jest"
+    ],
+    links: []
   },
   {
     image: gmb,

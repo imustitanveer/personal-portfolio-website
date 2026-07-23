@@ -15,18 +15,60 @@ function Experience() {
 
       <ExperienceItem
         image={dam}
-        alt="dam"
-        title="Fullstack AI Developer"
-        company="Dam Pvt. Ltd"
+        alt="DAM Pvt. Ltd."
+        company="DAM Pvt. Ltd."
         location="Karachi, Pakistan"
-        date="APR 2025 - Present"
-        bullets={[
-          "Build fullstack web apps with modern stacks — React, FastAPI, Node.js, Python, and scalable cloud backends.",
-          "Develop and deploy AI solutions, including fine-tuned models using Unsloth, MLX, and scalable training pipelines.",
-          "Create custom AI chatbots with Retrieval-Augmented Generation (RAG), vector databases, and domain-specific tuning.",
-          "Deliver end-to-end systems — from UI/UX to backend infra — solving real client problems with AI, automation, and modern web tech."
+        roles={[
+          {
+            title: "Forward Deployed AI Engineer",
+            date: "JUL 2026 - PRESENT",
+            bullets: [
+              "Partner with clients and internal stakeholders to translate complex business requirements into production-ready AI and software solutions.",
+              "Lead technical discovery, solution architecture, rapid prototyping, and deployment across AI, backend, and full-stack projects.",
+              "Embed directly into customer workflows to identify operational bottlenecks and deliver tailored systems that create measurable business impact.",
+              "Bridge customers, product, and engineering while guiding implementation decisions, technical trade-offs, and post-deployment iteration."
+            ],
+            tags: [
+              "Technical Discovery",
+              "Solution Architecture",
+              "Stakeholder Management",
+              "Rapid Prototyping",
+              "Python",
+              "TypeScript",
+              "FastAPI",
+              "Node.js",
+              "Next.js",
+              "RAG",
+              "AWS",
+              "Docker"
+            ]
+          },
+          {
+            title: "Fullstack AI Developer",
+            date: "APR 2025 - JUN 2026",
+            bullets: [
+              "Built full-stack web applications using React, Next.js, FastAPI, Node.js, Python, and scalable cloud backends.",
+              "Developed and deployed AI solutions including fine-tuned models, RAG systems, vector retrieval pipelines, and conversational agents.",
+              "Delivered end-to-end systems spanning frontend interfaces, backend APIs, databases, automation, and production deployment.",
+              "Solved client problems across healthcare, legal technology, enterprise SaaS, digital media, and workflow automation."
+            ],
+            tags: [
+              "Python",
+              "Tensorflow",
+              "Pytorch",
+              "MLX",
+              "Unsloth AI",
+              "React.js",
+              "Next.js",
+              "Javascript",
+              "Typescript",
+              "Tailwind CSS",
+              "MongoDB",
+              "AWS",
+              "cPanel"
+            ]
+          }
         ]}
-        tags={["Python", "Tensorflow", "Pytorch", "MLX", "Unsloth AI", "React.js", "Next.js", "Javascript", "Typescript", "Tailwind CSS", "MongoDB", "AWS", "cPanel"]}
       />
       
       <ExperienceItem

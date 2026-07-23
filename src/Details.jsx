@@ -12,9 +12,9 @@ function Details() {
     <>
         <img src={photo} className='w-48 h-48 rounded-full'></img>
         <h1 className='my-2 text-3xl text-black dark:text-white font-bold font-[Outfit]'>Mustassum "Musti" Tanvir</h1>
-        <h2 className='my-2 text-2xl text-gray-600 dark:text-gray-400 font-[DM_Sans]'>AI & Full-Stack Developer</h2>
+        <h2 className='my-2 text-2xl text-gray-600 dark:text-gray-400 font-[DM_Sans]'>Forward Deployed AI Engineer</h2>
         {/* <h2 className='my-2 text-xl text-gray-600 dark:text-gray-400 font-[DM_Sans]'>📍Karachi, Pakistan.</h2> */}
-        <p className='text-md text-black dark:text-white font-[Inter]'>Innovating with AI, Engineering the Future.</p>
+        <p className='text-md text-black dark:text-white font-[Inter]'>From ambiguity to production</p>
 
         <div className='flex flex-row gap-3'>
           <button className='flex flex-row gap-2 me-6 font-[Inter] text-gray-950 bg-white dark:bg-gray-950 border py-1 px-2 dark:text-white my-4 text-md rounded-sm hover:bg-gray-950 dark:hover:bg-white hover:cursor-pointer hover:text-white dark:hover:text-gray-950 group duration-300'>
